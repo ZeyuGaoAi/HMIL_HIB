@@ -13,7 +13,6 @@ _C.pretrained_path = ""
 
 _C.instance_beta = 0
 
-_C.IB_use = False
 _C.IB_beta1 = 1e-2
 
 _C.ClUB_beta2 = 1e-4
@@ -41,6 +40,6 @@ _C.lr = 1e-3
 _C.CLUB_lr = 1e-4
 _C.CLUB_iter_per_epoch = 5
 
-_C.num_epochs = 100
+_C.num_epochs = 200
 _C.batch_size = 1
 _C.num_workers = 4
