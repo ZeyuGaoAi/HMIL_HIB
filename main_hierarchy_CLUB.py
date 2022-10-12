@@ -39,10 +39,6 @@ def train_phase(model, optimizer, mi_estimator, mi_optimizer, dataloader, epoch)
     loss = 0
     estimator_copy = CLUB(cfg.ClUB_sample_dim, cfg.ClUB_sample_dim, cfg.ClUB_hidden_size).cuda()
     for cell_imgs, patient_label, cell_rates in tqdm(dataloader):
-        
-        #skip M4
-        if patient_label == 4:
-            continue
 
         cell_imgs = torch.cat(cell_imgs, dim = 0).cuda()
         
@@ -179,10 +175,6 @@ def test_phase(model, dataloader, best_acc, epoch):
     total_p_11 = 0
 
     for cell_imgs, patient_label, cell_rates in tqdm(dataloader):
-        
-        #skip M4
-        if patient_label == 4:
-            continue
             
         cell_imgs = torch.cat(cell_imgs, dim = 0).cuda()
 
