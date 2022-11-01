@@ -22,7 +22,7 @@ Following the information bottleneck principle, we propose a hierarchical IB to 
 - scikit-image 0.18.3
 
 ## Dataset
-- Downloa
+- Download form https://sercip.deepdmx.com/data
 
 ## Usage
 
