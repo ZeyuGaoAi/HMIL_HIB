@@ -17,4 +17,4 @@ The predicted mask of each image will be save in ".mat" on the `output_dir`.
 ## Model File
 The trained model need to be download from our nextcloud.
 
-The link is [download_link](https://nextcloud.chenli.group/index.php/s/Lio6zGg3eR8J7Wf)
+The link is [download_link](https://drive.google.com/file/d/1POPaGyYASZkSzVQAnwD6fBMmhvzMm3lw/view?usp=sharing)
